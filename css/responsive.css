@@ -1,0 +1,292 @@
+/*
+/* Medium Layout: 1280px.*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .navbar .sideNav ul li a{
+        font-size: 40px;
+        padding: 12px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and ( min-width: 768px) and (max-width: 991px) { 
+    #register-form{
+        width: 65%;
+        margin: 60px auto 0 auto;
+    }
+    .extra-large-padding{
+        padding-top: 200px;
+        padding-bottom: 180px;
+    }
+    .large-padding{
+        padding-top: 200px;
+        padding-bottom: 180px;
+    }
+    .text-left p{
+        width: 100%;
+    }
+    .home-text{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .navbar .sideNav ul li a{
+        font-size: 40px;
+        padding: 12px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .about-inner {
+        margin-top: 50px;
+    }
+    .video p{
+        width: 100%;
+    }    
+    .more-service-left {
+        position: relative;
+        width: 100%;
+        height: 550px;
+    }
+    .single-portfolio{
+        width: 50%;
+    }
+    .single-count{
+        margin-bottom: 30px;
+    }
+    .single-team{
+        margin-bottom: 30px;
+    }
+    .single-team:hover .team-info{
+        top: 76%;
+    }
+    .review-text p{
+        width: 100%;
+    }
+    .single-price{
+        margin-bottom: 90px;
+    }
+    .single-blog {
+        margin-bottom: 50px;
+    }
+    .blog-content{
+        padding: 23px 30px;
+    }
+    .single-add span{
+        font-size: 45px;
+    }
+    .contact-form {
+        margin-top: 50px;
+    }
+}   
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .side-menu-button{
+        display: block;
+    }
+    #register-form{
+        width: 100%;
+        margin: 60px auto 0 auto;
+    }
+    #home-carousel .fa.fa-angle-right, #home-carousel .fa.fa-angle-left{
+        display: none;
+    }
+    .home-text{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .large-padding{
+        padding-top: 210px;
+        padding-bottom: 140px;
+    }
+    .text-left p{
+        width: 100%;
+    }
+    #register-form h5{
+        font-size: 16px;
+    }
+    .navbar .sideNav ul li a{
+        font-size: 35px;
+        padding: 8px;
+    }
+    #register-form{
+        width: 100%;
+        margin: 60px auto 0 auto;
+    }
+    .extra-large-padding{
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+    .home-text{
+        text-align: center;
+    }
+    .about-inner{
+        margin-top: 50px;
+    }
+    .about-left {
+        min-height: 200px;
+    }
+
+    .single-portfolio{
+        width: 100%;
+    }
+    #home-carousel h1, .home-inner h1{
+        font-size: 36px;
+        line-height: 35px;
+    }
+    #home-carousel p, .home-inner p{
+        font-size: 15px;
+    }
+    #home-carousel a, .home-inner a{
+        margin: 10px;
+    }
+    .section-top h5{
+        font-size: 16px;
+    }
+    .section-top h2 {
+        font-size: 35px;
+        margin-top: 0px;
+    }
+    h4{
+        font-size: 23px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 35px;
+    }
+   .more-service-left {
+        position: relative;
+        width: 100%;
+        height: 450px;
+    }
+    .more-service-text{
+        margin-left: 60px;
+    }
+    .more-service-content{
+        margin-bottom: 30px;
+    }
+    .play-icon {
+        font-size: 28px;
+        height: 70px;
+        line-height: 65px;
+        width: 70px;
+    }
+    .portfolio-filter{
+        text-align: center;
+        margin: 50px 0;
+    }
+    .portfolio-filter li {
+        display: block;
+        padding: 5px 15px;
+        margin: 15px 0;
+        border: none;
+    }
+     .single-count{
+        margin-bottom: 30px;
+    }
+    .single-team{
+        margin-bottom: 30px;
+    }
+    .single-price{
+        margin-bottom: 90px;
+    }
+    .single-blog {
+        margin-bottom: 50px;
+    }
+    .single-add span{
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .contact-form {
+        margin-top: 70px;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .side-menu-button{
+        display: block;
+    }
+    .navbar .sideNav ul li a{
+        font-size: 38px;
+        padding: 10px;
+    }
+    #home-carousel h1, .home-inner h1{
+        font-size: 40px;
+        line-height: 37px;
+    }
+    #home-carousel p, .home-inner p{
+        font-size: 18px;
+    }
+    #home-carousel a, .home-inner a{
+        margin: 10px;
+    }
+    #home-carousel .fa.fa-angle-right, #home-carousel .fa.fa-angle-left{
+        display: none;
+    }
+    .large-padding{
+        padding-top: 220px;
+        padding-bottom: 170px;
+    }
+    .extra-large-padding{
+        padding-top: 200px;
+        padding-bottom: 180px;
+    }
+    .text-left p{
+        width: 100%;
+    }
+    #register-form{
+        width: 65%;
+        margin: 60px auto 0 auto;
+    }
+    .home-text{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #register-form h5{
+        font-size: 16px;
+    }
+    .about-inner{
+        margin-top: 50px;
+    }
+    .about-left {
+        min-height: 400px;
+    }
+
+    .single-portfolio{
+        width: 100%;
+    }
+    .portfolio-hover{
+        top: 40%;
+    }
+    .more-service-left {
+        position: relative;
+        width: 100%;
+        height: 550px;
+    }
+    .more-service-text{
+        margin-left: 60px;
+    }
+    .team-info{
+        padding: 22px 0 10px 20px;
+    }
+    .single-team:hover .team-info{
+        top: 82%;
+    }
+    .single-add span{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
