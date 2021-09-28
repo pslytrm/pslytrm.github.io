@@ -12,12 +12,10 @@
      TABLE OF CONTENTS
  ==============================================================
 
-    ## FAKELOADER
     ## SIDENAV
     ## TEXT ROTATOR
     ## SMOTH SCROOL
     ## SCROLLSPY
-    ## COUNT
     ## ISOTOPE
     ## STICK NAVBAR
     ## MAGNIFIC POPUP
@@ -31,18 +29,6 @@ $(function($) {
   
     "use strict";
 
-        // FAKELOADER
-
-           $("#fakeLoader").fakeLoader({
-            timeToHide:2000, //Time in milliseconds for fakeLoader disappear
-            zIndex:99999, // Default zIndex
-            spinner:"spinner2",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7' 
-            bgColor:"#fff" //Hex, RGB or RGBA colors
-            //imagePath:"yourPath/customizedImage.gif"//If you want can you insert your custom image
-           });
-
-        // END FAKELOADER
-    
         // SIDENAV
          var navbars = {
             sideNavBar: function () {
@@ -89,14 +75,6 @@ $(function($) {
             $('body').scrollspy({target: ".navbar", offset: 50});   
 
         // END SCROLLSPY
-    
-        // COUNT
-            $('.count').counterUp({
-                delay: 10,
-                time: 5000
-              });
-           
-        // END COUNT
 
         // ISOTOPE
 
@@ -178,7 +156,3 @@ $(function($) {
       // END BACK-TO-TOP
 
  })(jQuery);
-
-
-
-
