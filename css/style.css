@@ -91,7 +91,7 @@ a:focus{
 }
 .dark-text{
     color: #333;
-    font-family: "Calibri", cursive;
+    font-family: "Calibri, sans-serif";
 }
 .color-text{
     color: #00c1f0;
