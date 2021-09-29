@@ -91,6 +91,7 @@ a:focus{
 }
 .dark-text{
     color: #333;
+    font-family: "Calibri", cursive;
 }
 .color-text{
     color: #00c1f0;
@@ -381,7 +382,7 @@ nav.navbar-fixed-top{
 */
 
 #home{
-    background:  url(../images/home-bg.jpg);
+    background:  url(../images/kız-kulesi.jpeg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -1170,7 +1171,6 @@ a.side-menu-button {
     width: 30px;
     text-align: center;
     line-height: 28px;
-    border: ;
     margin: 10px 1px 0 1px;
 }
 .team-contact li a{
