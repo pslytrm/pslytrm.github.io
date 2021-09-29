@@ -89,9 +89,10 @@ a:focus{
 .white-text{
     color: #fff;
 }
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 .dark-text{
     color: #333;
-    font-family: "Calibri, sans-serif";
+    font-family: 'Varela Round', sans-serif;
 }
 .color-text{
     color: #00c1f0;
